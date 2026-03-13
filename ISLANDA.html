@@ -1,0 +1,206 @@
+<html>
+<head><title>VOIAJ International</title> <link rel="icon"  href="images/icon.png"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+@font-face{	font-family: "figerona";src:url("fonts/Figerona-VF.ttf") ;}
+@font-face{	font-family: "berlishanty";	src:url("fonts/Berlishanty Calligraphy.otf") ;}
+@font-face{	font-family: "caviar";	src:url("fonts/CaviarDreams.ttf") ;}
+@font-face{	font-family: "magazine";	src:url("fonts/magazine.ttf") ;}
+@font-face{	font-family: "gentium";	src:url("fonts/GenR102.ttf") ;}
+@font-face{	font-family: "goals";	src:url("fonts/TravelGoals.ttf") ;}
+@font-face{	font-family: "appleg";	src:url("fonts/AppleGaramond.ttf") ;}
+@font-face{	font-family: "newyork";	src:url("fonts/NewYork.ttf") ;}
+
+
+a:link 		{   color: AntiqueWhite;  background-color: transparent;  text-decoration: none;}
+a:visited   {  color: Bisque;  background-color: transparent;  text-decoration: none;}
+a:hover 	{  color: DarkRed;  background-color: transparent;  text-decoration: none;}
+
+::-webkit-scrollbar { width: 0px;}
+
+.table2{
+border-radius: 25px;
+padding: 15px;
+background-color:rgba(215, 166, 103,0.7);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: beige;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.customIndent {
+  padding-left: 8px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  border-radius: 25px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgb(194, 186, 165,0.7);
+
+}
+.collapsible {
+  background: url('images/banner.jpg');
+  opacity: 0.65;
+  color: #444;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  
+  font-size: 25px;
+
+}
+.poze {
+  align:center;
+  vertical-align:middle;
+  height:350px;
+  width:600px;
+ border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.polaroid {
+  width: 350px;
+  height:350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+</style>
+
+<body background="images/islandabg.jpg" style="background-repeat: no-repeat; background-size: 100% 100%" >
+
+<table height=90% width=90% align="center" cellspacing="0" cellpadding="5" style="background-color: rgba(255, 255, 255,0.7)"; >
+<tr height="200" ><th  height="200" ><font face="figerona" size="50" color="black" ><sup><img src="images/ping.png" height="50" width="50">ISLANDA</font></th></tr>
+<tr height="200">
+<td width="1000" align="center"><font face="magazine" size="10" color="black">DESCRIERE</font><br><br>
+<table class="table2"><tr><td><font face="appleg" size="5" color="black">Islanda este o țară insulară nordică aflată între Atlanticul de Nord și Oceanul Arctic. Este țara cu cea mai rarefiată populație din Europa, iar zonele înconjurătoare din sud-vestul capitalei Reykjavík dețin două treimi din populație. Insula conține vulcani activi și izvoare geotermale. Interiorul ei constă în principal dintr-un platou caracterizat de câmpii nisipoase și de lavă, munți și ghețari, din care mai multe râuri glaciare curg către mare prin câmpia litorală. Islanda este încălzită de Curentul Golfului și are o climă temperată, în ciuda latitudinii mari la care se află, în apropierea cercului polar de nord.
+Cultura islandeză este bazată pe moștenirea scandinavă. Majoritatea islandezilor sunt urmașii coloniștilor germanici și celtici. Limba islandeză, o limbă germanică de nord, a evoluat din nordica veche și este strâns înrudită cu feroeza și cu dialectele norvegiene vestice. Moștenirea culturală a țării cuprinde bucătăria tradițională, literatura și saga medievale. Islanda are cea mai mică populație dintre toate țările membre NATO și este singura care nu are o armată, apărarea țării fiind în sarcina unei paze de coastă cu armament restrâns.
+</font></td></tr></table></td>
+
+<td width="400" align="center"><font face="magazine" size="10" color="black">DATE GENERALE</font><br>
+<img src="images/islandaflag.jpg" height="150" width="200" ><br><font face="gentium" size="5" color="black"><ul align="left">
+					<li><b>Denumirea oficiala:</b> Islanda </li>
+					<li><b>Fusul orar:</b> UTC+0</li>
+					<li><b>Capitala:</b> Reykjavík </li>
+					<li><b>Suprafata:</b> 103.004 km<sup>2</sup></li>
+					<li><b>Moneda:</b> coroana islandeza </li>
+					<li><b>Limba oficiala:</b> islandeză  </li>
+					<li><b>Prefix telefonic international: </b>+354</li>
+
+</ul></font></td>
+</tr>
+<tr height="200">
+<td align="center"><font face="magazine" size="10" color="black">ATRACTII TURISTICE</font><br>
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Laguna Albastra </b></font></button>
+<div class="content">
+<p align="center"><img src="images/laguna.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Una dintre cele mai mari atractii ale Islandei, Laguna Albastra este “nascuta” pe baza unei formatiuni de lava, apa fiind mentinuta constant la o temperatura cuprinsa intre 37 – 39 grade Celsius.  In imediata apropiere, un izvor termal care isi are inceputurile  la mare adancime trimite apa la suprafata, aceasta fiind folosita in primul rand la turbinele care genereaza curent electric. Dupa ce trec prin turbine, aburii si apa fierbinte sunt preluate si se transfera in sistemul de incalzire al orasului.
+În timp ce Islanda este o țară plină de izvoare termale naturale, Laguna Albastră nu este unul dintre ele. Terenul este natural, la fel și lava care modelează piscina, dar apa caldă este de fapt rezultatul scurgerii de la centrala geotermală de alături.
+Asta nu înseamnă că este periculos sau toxic - departe de asta! Este încă o piscină geotermală cu apă bogată în minerale.
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Vulcanul Fagradalsfjall</b></font></button>
+<div class="content"><p align="center"><img src="images/fagradal.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Fagradalsfjall s-a format în ultima perioadă glaciară pe peninsula Reykjanes, la aproximativ 40 de kilometri (25 mile) de Reykjavík, Islanda. Nicio erupție vulcanică nu a avut loc timp de 815 ani în Peninsula Reykjanes până la 19 martie 2021, când a apărut o fisură în Geldingadalir, la sud de muntele Fagradalsfjall. Erupția din 2021 a fost efuzivă și a continuat să emită lavă proaspătă sporadic până la 18 septembrie 2021.
+
+Erupția a fost unică printre vulcanii monitorizați în Islanda până acum și s-a sugerat că s-ar putea dezvolta într-un vulcan scut. Datorită ușurinței sale relative de acces din Reykjavík, vulcanul a devenit o atracție pentru localnicii și turiștii străini. O altă erupție, foarte asemănătoare cu erupția din 2021, a început pe 3 august 2022. Este încă considerată în curs de desfășurare, deși nu a existat nicio activitate vizibilă din 21 august 2022.
+
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Ghetarul Vatnajokull</b></font></button>
+<div class="content">
+<p align="center"><img src="images/vatnajokull.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Ghețarul Vatnajökull este cel mai mare din Europa și acoperă 8% din suprafața Islandei. Vatnajökull are aproximativ 7.900 de kilometri pătrați și poate fi văzut din spațiu. Grosimea medie a gheții este de 380 de metri. 
+Conformaţia gheţarului Vatnajökull este de calotă, datorita zăpezii care cade iarna şi care, datorită soarelui de vară, se topeşte mai întâi la suprafaţă şi mai pe urmă spre interior, infiltrându-se în interior şi îngheţând din nou.
+
+Partea de nord-vest a gheţarului este aşezată pe un vulcan activ, Grimsvotn, care în 1996, in urma unui cutremur violent a creat un crater lung de peste 100 de metri, care poate fi văzut în totalitate în interiorul gheţarului. În crater s-a format un munte nou, al cărui vârf se afla la 200 de metri dedesubtul suprafeţei originare a gheţarului, cam ca o mică insulă înconjurată de apă fierbinte.
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>ALTE ATRACTII</b></font></button>
+<div class="content"><p align="center">
+<table cellspacing="0" cellpadding="5">
+<tr height="350">
+<td width="350"><div class="polaroid">  
+			<img src="images/islanda1.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Husavik</font></p>
+			</div>
+		</div></td>
+<td width="350"><div class="polaroid">  
+			<img src="images/islanda2.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Plaja Rauðisandur</font></p>
+			</div>
+		</div></td>
+
+<td width="350"><div class="polaroid">  
+			<img src="images/islanda3.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Peninsula Snaefellsnes</font></p>
+			</div>
+		</div></td>
+</tr>
+</table>
+</p>
+</div>
+</td>
+<td align="center">
+<font face="goals" size="45" color="darkred">TRAVEL TIPS</font>
+<div class="container">
+  <img src="images/paper.png" alt="Snow" style="width:100%;">
+  
+  <div class="centered"><ul class="customIndent" align="left"><font face="garamond" size="5" color="black">
+					<br><br><br>
+					<li><i>Imbracamintea trebuie sa fie nu doar calduroasa, ci si impermeabila!<i></li>
+					<li><i>Nu uita ochelarii de soare cu protectie UV!</i></li>
+					<li><i>Ai nevoie de mașină!</i></li>
+					<li><i>Atunci cand vizitezi o familie islandeza este de recomandat sa te descalti.</i></li></font></ul></div>
+</div>
+
+
+					
+
+
+</ul></td>
+</tr>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>

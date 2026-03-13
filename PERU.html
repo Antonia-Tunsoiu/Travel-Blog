@@ -1,0 +1,206 @@
+<html>
+<head><title>VOIAJ International</title> <link rel="icon"  href="images/icon.png"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+@font-face{	font-family: "figerona";src:url("fonts/Figerona-VF.ttf") ;}
+@font-face{	font-family: "berlishanty";	src:url("fonts/Berlishanty Calligraphy.otf") ;}
+@font-face{	font-family: "caviar";	src:url("fonts/CaviarDreams.ttf") ;}
+@font-face{	font-family: "magazine";	src:url("fonts/magazine.ttf") ;}
+@font-face{	font-family: "gentium";	src:url("fonts/GenR102.ttf") ;}
+@font-face{	font-family: "goals";	src:url("fonts/TravelGoals.ttf") ;}
+@font-face{	font-family: "appleg";	src:url("fonts/AppleGaramond.ttf") ;}
+@font-face{	font-family: "newyork";	src:url("fonts/NewYork.ttf") ;}
+
+a:link 		{   color: AntiqueWhite;  background-color: transparent;  text-decoration: none;}
+a:visited   {  color: Bisque;  background-color: transparent;  text-decoration: none;}
+a:hover 	{  color: DarkRed;  background-color: transparent;  text-decoration: none;}
+
+::-webkit-scrollbar { width: 0px;}
+
+.table2{
+border-radius: 25px;
+padding: 15px;
+background-color:rgba(215, 166, 103,0.7);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: beige;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.customIndent {
+  padding-left: 8px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  border-radius: 25px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgb(194, 186, 165,0.7);
+
+}
+.collapsible {
+  background: url('images/banner.jpg');
+  opacity: 0.65;
+  color: #444;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  
+  font-size: 25px;
+
+}
+.poze {
+  align:center;
+  vertical-align:middle;
+  height:350px;
+  width:600px;
+ border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.polaroid {
+  width: 350px;
+  height:350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+</style>
+
+<body background="images/perubg.jpg" style="background-repeat: no-repeat; background-size: 100% 100%" >
+
+<table height=90% width=90% align="center" cellspacing="0" cellpadding="5" style="background-color: rgba(255, 255, 255,0.7)"; >
+<tr height="200" ><th  height="200" ><font face="figerona" size="50" color="black" ><sup><img src="images/ping.png" height="50" width="50">PERU</font></th></tr>
+<tr height="200">
+<td width="1000" align="center"><font face="magazine" size="10" color="black">DESCRIERE</font><br><br>
+<table class="table2"><tr><td><font face="appleg" size="5" color="black">Peru este o țară situată în vestul Americii de Sud. La nord se învecinează cu Ecuador și Columbia, la est cu Brazilia, la sud-est cu Bolivia, la sud are hotar cu Chile, iar la vest se află Oceanul Pacific.
+Peru este a treia mare națiune a Americii de Sud și poate fi împărțită în trei regiuni geografice, pornind de la Vest spre Est. Prima dintre ele este coasta, o regiune de depresiuni deșertice lungă și îngustă, a doua este regiunea muntoasă Sierra, porțiune peruviană a Anzilor, iar ultima este reprezentată de Montana, câmpiile vaste și dealuri estice, acoperite în principal de pădurile tropicale ale bazinului fluviului Amazon.
+Peru este o țară multietnică, având o bogăție culturală și arheologică deosebită, fiind cunoscută ca locul de baștină al Imperiului Inca.
+</font></td></tr></table></td>
+
+<td width="400" align="center"><font face="magazine" size="10" color="black">DATE GENERALE</font><br>
+<img src="images/peruflag.jpg" height="150" width="200" ><br><font face="gentium" size="5" color="black"><ul align="left">
+					<li><b>Denumirea oficiala:</b> Republica Peru</li>
+					<li><b>Fusul orar:</b> UTC−5</li>
+					<li><b>Capitala:</b> Lima</li>
+					<li><b>Suprafata:</b> 1.285.216 km<sup>2</sup></li>
+					<li><b>Moneda:</b> 	sol </li>
+					<li><b>Limba oficiala:</b> 	spaniolă  </li>
+					<li><b>Prefix telefonic international: </b>+51</li>
+
+</ul></font></td>
+</tr>
+<tr height="200">
+<td align="center"><font face="magazine" size="10" color="black">ATRACTII TURISTICE</font><br>
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>MACHU PICCHU</b></font></button>
+<div class="content"><p align="center"><img src="images/machu.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Machu Picchu este un oraș-templu incaș din secolul al XV-lea d.Hr., situat pe teritoriul regiunii actuale Cusco din Peru. Ruinele au fost redescoperite în 1911 de către arheologul Hiram Bingham, fiind unele dintre cele mai frumoase și enigmatice locuri străvechi din lume. În timp ce incașii foloseau sigur vârful muntelui (2761,5 m înălțime), ridicând sute de structuri de piatră începând cu anii 1400, legendele și miturile indicau faptul că Machu Picchu (însemnând "vechiul pisc" în limba Quechua) era adorat ca un loc sacru din cele mai vechi timpuri.Cele aproximativ 200 de structuri care alcătuiesc acest remarcabil centru religios, ceremonial, astronomic și agricol sunt așezate pe o creastă abruptă, străbătută de terase de piatră. Până în prezent, multe dintre misterele lui Machu Picchu rămân nerezolvate, inclusiv rolul exact pe care l-ar fi jucat în înțelegerea sofisticată de către incași a astronomiei și domesticirea speciilor de plante sălbatice.
+</font></p></div></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>MUNTELE VINICUNCA</b></font></button>
+<div class="content"><p align="center"><img src="images/vinicunca.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Vinicunca este un munte situat in Anzi la o altitudine de 5.200 metri deasupra nivelului marii. Este situat la aproximativ 100 de kilometri sud de Cusco și pare pictat în nuanțe i de alb, roz și turcoaz, cu violet și aur. Aspectul de curcubeu al Muntelui Vinicunca se datorează „unei istorii geologice complexe a sedimentelor marine, lacurilor și râurilor”, potrivit unui raport al Oficiului pentru Peisagistică al Departamentului pentru Cultură din Cusco.
+Sedimente din componenta muntelui au fost purtate de apa care acoperea cândva zona, au format straturi (cu granule de dimensiuni diferite) .Mișcarea plăcilor tectonice din zonă a ridicat aceste sedimente până când au devenit munți. Apoi, și-au dobândit culorile strălucitoare datorită oxidării mineralelor lor, exercitate de umiditatea zonei și de eroziunea lor.  Muntele a fost acoperit de calote glaciare, dar acestea s-au topit din cauza schimbărilor climatice în urmă cu aproximativ 10.000 de ani, fiind astfel descoperit de turisti in ultimii ani.
+</font></p></div></div></div>
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>LINIILE NAZCA</b></font></button>
+<div class="content"><p align="center"><img src="images/nazca.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Liniile Nazca sunt o serie de geoglife localizate în Deșertul Sechura din Peru. Acestea au fost desemnate de UNESCO ca aparținând Patrimoniului Mondial. Platoul înalt și arid se întinde mai mult de 80 km între orașele Nazca și Palpa în Pampas de Jumana. Deși unele geoglife locale sunt aseamănătoare culturii Paracas, oamenii de știință cred că Liniile Nazca au fost create de către cultura Nazca între 650 î.Hr. și 400 î.Hr.. Sute de figuri individuale într-o gamă de complexitate de la linii simple la colibri stilizați, păianjeni, maimuțe, pești, rechini sau balene ucigașe, llame și șopârle. 
+Oamenii de știință au constatat că geoglifele au fost realizate prin îndepărtarea rocilor de la suprafața de culoare închisă, pe care le-au așezat ulterior în forme prestabilite, astfel descoperindu-se solul de o nuanță mai deschisă. Șanțurile au fost create cu o mare precizie și este posibil ca nazcanii să fi posedat cunoștințe de geometrie și inginerie de bază, la fel ca vechii egipteni.
+
+</font></p></div></div></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>ALTE ATRACTII</b></font></button>
+<div class="content"><p align="center">
+<table cellspacing="0" cellpadding="5">
+<tr height="350">
+<td width="350"><div class="polaroid">  
+			<img src="images/huascaran.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Parcul National Huascaran</font></p>
+			</div>
+		</div></td>
+<td width="350"><div class="polaroid">  
+			<img src="images/caralsupe.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Orasul sacru Caral-Supe
+</font></p>
+			</div>
+		</div></td>
+
+<td width="350"><div class="polaroid">  
+			<img src="images/chanchan.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5"> Chan Chan, orasul din caramizi de lut</font></p>
+			</div>
+		</div></td>
+</tr>
+</table>
+
+
+</p>
+</div>
+</td>
+<td align="center">
+<font face="goals" size="45" color="darkred">TRAVEL TIPS</font>
+<div class="container">
+  <img src="images/paper.png" alt="Snow" style="width:100%;">
+  
+  <div class="centered"><ul class="customIndent" align="left"><font face="garamond" size="5" color="black">
+					<br><br><br>
+					<li><i>Aveti in bagaj  atat haine lejere si groase, dar si subtiri.<i></li>
+					<li><i>Nu uitati de protectiile pentru soare si tantari. </i></li>
+					<li><i>In jungla nu exista electricitate, prin urmare aveti nevoie de baterii externe si lanterne.</i></li></font></ul></div>
+</div>
+
+
+
+
+
+
+
+
+					
+
+
+</ul></td>
+</tr>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>

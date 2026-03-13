@@ -1,0 +1,198 @@
+<html>
+<head><title>VOIAJ International</title> <link rel="icon"  href="images/icon.png"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+@font-face{	font-family: "figerona";src:url("fonts/Figerona-VF.ttf") ;}
+@font-face{	font-family: "berlishanty";	src:url("fonts/Berlishanty Calligraphy.otf") ;}
+@font-face{	font-family: "caviar";	src:url("fonts/CaviarDreams.ttf") ;}
+@font-face{	font-family: "magazine";	src:url("fonts/magazine.ttf") ;}
+@font-face{	font-family: "gentium";	src:url("fonts/GenR102.ttf") ;}
+@font-face{	font-family: "goals";	src:url("fonts/TravelGoals.ttf") ;}
+@font-face{	font-family: "appleg";	src:url("fonts/AppleGaramond.ttf") ;}
+@font-face{	font-family: "newyork";	src:url("fonts/NewYork.ttf") ;}
+
+
+a:link 		{   color: AntiqueWhite;  background-color: transparent;  text-decoration: none;}
+a:visited   {  color: Bisque;  background-color: transparent;  text-decoration: none;}
+a:hover 	{  color: DarkRed;  background-color: transparent;  text-decoration: none;}
+
+::-webkit-scrollbar { width: 0px;}
+
+.table2{
+border-radius: 25px;
+padding: 15px;
+background-color:rgba(215, 166, 103,0.7);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: beige;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.customIndent {
+  padding-left: 8px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  border-radius: 25px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgb(194, 186, 165,0.7);
+
+}
+.collapsible {
+  background: url('images/banner.jpg');
+  opacity: 0.65;
+  color: #444;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  
+  font-size: 25px;
+
+}
+.poze {
+  align:center;
+  vertical-align:middle;
+  height:350px;
+  width:600px;
+ border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.polaroid {
+  width: 350px;
+  height:350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+</style>
+
+<body background="images/frantabg.jpg" style="background-repeat: no-repeat; background-size: 100% 100%" >
+
+<table height=90% width=90% align="center" cellspacing="0" cellpadding="5" style="background-color: rgba(255, 255, 255,0.7)"; >
+<tr height="200" ><th  height="200" ><font face="figerona" size="50" color="black" ><sup><img src="images/ping.png" height="50" width="50">FRANTA</font></th></tr>
+<tr height="200">
+<td width="1000" align="center"><font face="magazine" size="10" color="black">DESCRIERE</font><br><br>
+<table class="table2"><tr><td><font face="appleg" size="5" color="black">Franța este o republică constituțională unitară având un mod de guvernare semi-prezidențial, mare parte din teritoriul său și din populație fiind situată în Europa de Vest, dar care cuprinde și mai multe regiuni și teritorii răspândite în toată lumea. Deviza națională este „Libertate, egalitate, fraternitate” (în franceză Liberté, Égalité, Fraternité), iar drapelul Franței este format din trei benzi verticale colorate, respectiv în albastru, alb, roșu. Imnul național este La Marseillaise.
+Franța joacă un rol important în istoria mondială prin intermediul influenței exercitate de cultura sa, de limba sa și de valorile democratice, seculare și republicane pe care le-a promovat în ultimele două secole.
+</font></td></tr></table></td>
+
+<td width="400" align="center"><font face="magazine" size="10" color="black">DATE GENERALE</font><br>
+<img src="images/frantaflag.jpg" height="150" width="200" ><br><font face="gentium" size="5" color="black"><ul align="left">
+					<li><b>Denumirea oficiala:</b> Republica Franceză </li>
+					<li><b>Fusul orar:</b> UTC+1</li>
+					<li><b>Capitala:</b> Paris </li>
+					<li><b>Suprafata:</b> 674,843 km<sup>2</sup></li>
+					<li><b>Moneda:</b> euro </li>
+					<li><b>Limba oficiala:</b> franceza  </li>
+					<li><b>Prefix telefonic international: </b>+33</li>
+
+</ul></font></td>
+</tr>
+<tr height="200">
+<td align="center"><font face="magazine" size="10" color="black">ATRACTII TURISTICE</font><br>
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Turnul Eiffel</b></font></button>
+<div class="content">
+<p align="center"><img src="images/eiffel.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Turnul Eiffel este o construcție faimoasă pe schelet de oțel din Paris ce măsoară 324 m înălțime. Turnul a devenit simbolul Franței cel mai răspândit la nivel mondial. 
+Turnul are 300 m înălțime, excluzând antena din vârf, ce mai adaugă 20 de metri, și o greutate de peste 10.000 de tone. Când a fost construit era cea mai înaltă clădire din lume. Întreținerea turnului include utilizarea a 50 de tone de vopsea maro închis, la fiecare 7 ani. Depinzând de temperatura aerului, Turnul Eiffel își schimbă înălțimea cu câțiva centimetri datorită contracției și dilatării aliajului de metale.
+
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Le Mont-Saint-Michel </b></font></button>
+<div class="content"><p align="center"><img src="images/mont.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Le Mont-Saint-Michel este o stâncă granitică (78 m înălțime) în Golful Saint-Malo din Marea Mânecii, unde se manifestă cel mai reprezentativ fenomen de flux și reflux: în timpul fluxului este insulă, comunicația cu teritoriul continental fiind întreruptă, iar în timpul refluxului devine peninsulă, o limbă de nisip ieșind de sub ape. Stânca este ocupată de un sat (41 locuitori) și o mănăstire fortificată (ridicată începând cu secolul al VIII-lea, până prin secolele al XII-lea - al XIV-lea). A jucat un rol important în istoria Franței, fiind singurul loc care nu a putut fi cucerit de armatele engleze în timpul „Războiului de 100 de ani”.  
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Palatul versailles</b></font></button>
+<div class="content">
+<p align="center"><img src="images/versailles.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Palatul Versailles este un castel regal construit la Versailles, în Franța. A fost reședința regilor Franței : Ludovic al XIV-lea , Ludovic al XV-lea și Ludovic al XVI-lea. Acest castel se înscrie printre cele mai remarcabile monumente din Franța, nu numai prin frumusețe, ci și prin prisma evenimentelor. Acesta devine reședință regală permanentă începând cu anul 1682, când regele Ludovic al XIV-lea a mutat curtea de la Paris, până în 1789, când familia regală a fost forțată să se întoarcă în capitală, cu excepția a câțiva ani din timpul Regenței.</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>ALTE ATRACTII</b></font></button>
+<div class="content"><p align="center">
+<table cellspacing="0" cellpadding="5">
+<tr height="350">
+<td width="350"><div class="polaroid">  
+			<img src="images/franta1.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Provence</font></p>
+			</div>
+		</div></td>
+<td width="350"><div class="polaroid">  
+			<img src="images/franta2.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Catacombele Parisului </font></p>
+			</div>
+		</div></td>
+
+<td width="350"><div class="polaroid">  
+			<img src="images/franta3.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Coasta de Azur</font></p>
+			</div>
+		</div></td>
+</tr>
+</table>
+</p>
+</div>
+</td>
+<td align="center">
+<font face="goals" size="45" color="darkred">TRAVEL TIPS</font>
+<div class="container">
+  <img src="images/paper.png" alt="Snow" style="width:100%;">
+  
+  <div class="centered"><ul class="customIndent" align="left"><font face="garamond" size="5" color="black">
+					<br><br><br>
+					<li><i>Paris Pass este un pachet multipass cu 75+ atractii turistice!</i></li>
+					<li><i>E mai facil sa folosesti sistemul de transport public.</i></li>
+					<li><i>Ai grija la escroci!</i></li></font></ul></div>
+</div>
+
+
+					
+
+
+</ul></td>
+</tr>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>

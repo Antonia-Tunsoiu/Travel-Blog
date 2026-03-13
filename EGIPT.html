@@ -1,0 +1,203 @@
+<html>
+<head><title>VOIAJ International</title> <link rel="icon"  href="images/icon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+@font-face{	font-family: "figerona";src:url("fonts/Figerona-VF.ttf") ;}
+@font-face{	font-family: "berlishanty";	src:url("fonts/Berlishanty Calligraphy.otf") ;}
+@font-face{	font-family: "caviar";	src:url("fonts/CaviarDreams.ttf") ;}
+@font-face{	font-family: "magazine";	src:url("fonts/magazine.ttf") ;}
+@font-face{	font-family: "gentium";	src:url("fonts/GenR102.ttf") ;}
+@font-face{	font-family: "goals";	src:url("fonts/TravelGoals.ttf") ;}
+@font-face{	font-family: "appleg";	src:url("fonts/AppleGaramond.ttf") ;}
+@font-face{	font-family: "newyork";	src:url("fonts/NewYork.ttf") ;}
+
+
+a:link 		{   color: AntiqueWhite;  background-color: transparent;  text-decoration: none;}
+a:visited   {  color: Bisque;  background-color: transparent;  text-decoration: none;}
+a:hover 	{  color: DarkRed;  background-color: transparent;  text-decoration: none;}
+
+::-webkit-scrollbar { width: 0px;}
+
+.table2{
+border-radius: 25px;
+padding: 15px;
+background-color:rgba(215, 166, 103,0.7);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: beige;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.customIndent {
+  padding-left: 8px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  border-radius: 25px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgb(194, 186, 165,0.7);
+
+}
+.collapsible {
+  background: url('images/banner.jpg');
+  opacity: 0.65;
+  color: #444;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  
+  font-size: 25px;
+
+}
+.poze {
+  align:center;
+  vertical-align:middle;
+  height:350px;
+  width:600px;
+ border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.polaroid {
+  width: 350px;
+  height:350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+</style>
+
+<body background="images/egiptbg.jpg" style="background-repeat: no-repeat; background-size: 100% 100%" >
+
+<table height=90% width=90% align="center" cellspacing="0" cellpadding="5" style="background-color: rgba(255, 255, 255,0.7)"; >
+<tr height="200" ><th  height="200" ><font face="figerona" size="50" color="black" ><sup><img src="images/ping.png" height="50" width="50">EGIPT</font></th></tr>
+<tr height="200">
+<td width="1000" align="center"><font face="magazine" size="10" color="black">DESCRIERE</font><br><br>
+<table class="table2"><tr><td><font face="appleg" size="5" color="black">Egipt este o țară arabă din nordul Africii și din Orientul Mijlociu, limitată la nord de Marea Mediterană, la est de Fâșia Gaza, de Israel, de Golful Aqaba și de Marea Roșie, la sud de Sudan iar la vest de Libia. Situat chiar la intersecția dintre Africa și Asia, astăzi Egiptul reprezintă un important punct de transport între continente, prin Canalul Suez.
+Sursa vieții Egiptului a fost și este râul Nil prin valea sa fertilă -  “pământul negru” - cum îl numeau grecii antici. 
+În prezent resursele naturale ale țării sunt cărbunele, petrolul, gazele naturale, aurul dar și citricele, economia țării bazandu-se pe turism și agricultura. Principalele stațiuni turistice sunt Sharm El Sheikh și Hurghada, ambele la Marea Roșie.
+</font></td></tr></table></td>
+
+<td width="400" align="center"><font face="magazine" size="10" color="black">DATE GENERALE</font><br>
+<img src="images/egiptflag.jpg" height="150" width="200" ><br><font face="gentium" size="5" color="black"><ul align="left">
+					<li><b>Denumirea oficiala:</b> Republica Arabă a Egiptului </li>
+					<li><b>Fusul orar:</b> UTC+2</li>
+					<li><b>Capitala:</b> Cairo </li>
+					<li><b>Suprafata:</b> 1.010.407 km<sup>2</sup></li>
+					<li><b>Moneda:</b> lira egipteană </li>
+					<li><b>Limba oficiala:</b> arabă </li>
+					<li><b>Prefix telefonic international: </b>+20</li>
+
+</ul></font></td>
+</tr>
+<tr height="200">
+<td align="center"><font face="magazine" size="10" color="black">ATRACTII TURISTICE</font><br>
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Piramidele din Giza</b></font></button>
+<div class="content">
+<p align="center"><img src="images/piramide.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Piramidele din Giza complex de monumente antice, se numără printre cele mai cunoscute piramide din antichitate, ele fiind considerate una dintre cele șapte minuni ale lumii antice. Piramidele sunt situate la vest de Valea Nilului și cca. 8 km sud-vest de orașul Giza și 18 km de Cairo, capitala modernă a Egiptului. Se crede că clădirile au fost create în Împărăția veche a Egiptului Antic, în timpul domniei dinastiei IV-VI. Marea Piramidă din Giza este singurul monument al celor șapte minuni ale lumii antice. Este, de asemenea, o comoară națională a Egiptului.Majoritatea teoriilor de construcție se bazează pe ideea că piramidele au fost construite prin mișcarea unor pietre imense din carieră, prin glisare și ridicare pe loc. Centrul de dezacorduri se referă la metoda prin care pietrele au fost transportate și plasate și cât de posibil a fost metoda.
+
+În construirea piramidelor, arhitecții ar fi putut să-și dezvolte tehnicile în timp. Ei ar selecta un sit pe o suprafață relativ plată de rocă de bază - nu de nisip - care a oferit o bază stabilă. După ce au urmărit cu atenție situl și au stabilit primul nivel de pietre, au construit piramidele în nivele orizontale, unul pe celălalt. Doar câteva blocuri exterioare rămân în loc în partea de jos a Marii Piramide.
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>DESERTUL ALB</b></font></button>
+<div class="content"><p align="center"><img src="images/desert.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Deșertul Alb din Egipt este o zonă mică în estul deșertului Sahara, cu o suprafață de aproximativ 300 km2. (10 km x 30 km), întins pe drumul dintre oazele Bahariya și Farafra. Distanța de la Cairo la deșertul alb este de 500 km; Deșertul Alb este cunoscut pentru formațiunile sale carstice bizare. Cu multe milioane de ani în urmă, aici exista un fund al oceanului, iar roca albă este rămășițele microorganismelor marine. De-a lungul secolelor, vântul și nisipul au transformat fostul fund al mării într-o aparență a suprafeței altei planete. Deșertul are o culoare albă cremoasă - o rocă masivă de cretă formată ca urmare a furtunilor periodice de nisip din zonă.
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Valea Regilor</b></font></button>
+<div class="content">
+<p align="center"><img src="images/kings.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Valea Regilor este o vale din Egipt unde de-a lungul unei perioade de aproape 500 de ani au fost excavate morminte pentru faraonii și nobilii din Noul Regat Egiptean. Valea se află situată pe malul de vest al Nilului, în dreptul orașului Luxor de azi.
+Zona a fost cercetată arheologic începând cu sfârșitul secolului al XVIII-lea, mormintele sale fiind studiate și în prezent. Valea a devenit faimoasă după 1922, ca urmare a descoperirii mormântului lui Tutankhamon, cu al său „blestem”.
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>ALTE ATRACTII</b></font></button>
+<div class="content"><p align="center">
+<table cellspacing="0" cellpadding="5">
+<tr height="350">
+<td width="350"><div class="polaroid">  
+			<img src="images/egipt1.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Oaza Siwa</font></p>
+			</div>
+		</div></td>
+<td width="350"><div class="polaroid">  
+			<img src="images/egipt2.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Abu Simbel</font></p>
+			</div>
+		</div></td>
+
+<td width="350"><div class="polaroid">  
+			<img src="images/egipt3.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Templul lui Hathor </font></p>
+			</div>
+		</div></td>
+</tr>
+</table>
+</p>
+</div>
+</td>
+<td align="center">
+<font face="goals" size="45" color="darkred">TRAVEL TIPS</font>
+<div class="container">
+  <img src="images/paper.png" alt="Snow" style="width:100%;">
+  
+  <div class="centered"><ul class="customIndent" align="left"><font face="garamond" size="5" color="black">
+					<br><br><br>
+					<li><i>Nu folosi apa de la robinet!</i></li>
+					<li><i>E indicat sa ai propria hartie igienica la tine.</i></li>
+					<li><i>Oamenii se asteapta sa oferi bacsis!</i></li>
+					<li><i>E indicat sa platesti in cash.</i></li></font></ul></div>
+</div>
+
+
+					
+
+
+</ul></td>
+</tr>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>

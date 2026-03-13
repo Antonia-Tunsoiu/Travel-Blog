@@ -1,0 +1,201 @@
+<html>
+<head><title>VOIAJ International</title> <link rel="icon"  href="images/icon.png"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+@font-face{	font-family: "figerona";src:url("fonts/Figerona-VF.ttf") ;}
+@font-face{	font-family: "berlishanty";	src:url("fonts/Berlishanty Calligraphy.otf") ;}
+@font-face{	font-family: "caviar";	src:url("fonts/CaviarDreams.ttf") ;}
+@font-face{	font-family: "magazine";	src:url("fonts/magazine.ttf") ;}
+@font-face{	font-family: "gentium";	src:url("fonts/GenR102.ttf") ;}
+@font-face{	font-family: "goals";	src:url("fonts/TravelGoals.ttf") ;}
+@font-face{	font-family: "appleg";	src:url("fonts/AppleGaramond.ttf") ;}
+@font-face{	font-family: "newyork";	src:url("fonts/NewYork.ttf") ;}
+
+
+a:link 		{   color: AntiqueWhite;  background-color: transparent;  text-decoration: none;}
+a:visited   {  color: Bisque;  background-color: transparent;  text-decoration: none;}
+a:hover 	{  color: DarkRed;  background-color: transparent;  text-decoration: none;}
+
+::-webkit-scrollbar { width: 0px;}
+
+.table2{
+border-radius: 25px;
+padding: 15px;
+background-color:rgba(215, 166, 103,0.7);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: beige;
+
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.customIndent {
+  padding-left: 8px;
+}
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+.content {
+  border-radius: 25px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgb(194, 186, 165,0.7);
+
+}
+.collapsible {
+  background: url('images/banner.jpg');
+  opacity: 0.65;
+  color: #444;
+  cursor: pointer;
+  padding: 25px;
+  width: 100%;
+  border-radius: 25px;
+  text-align: center;
+  
+  font-size: 25px;
+
+}
+.poze {
+  align:center;
+  vertical-align:middle;
+  height:350px;
+  width:600px;
+ border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+div.polaroid {
+  width: 350px;
+  height:350px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+</style>
+
+<body background="images/thailandabg.jpg" style="background-repeat: no-repeat; background-size: 100% 100%" >
+
+<table height=90% width=90% align="center" cellspacing="0" cellpadding="5" style="background-color: rgba(255, 255, 255,0.7)"; >
+<tr height="200" ><th  height="200" ><font face="figerona" size="50" color="black" ><sup><img src="images/ping.png" height="50" width="50">THAILANDA</font></th></tr>
+<tr height="200">
+<td width="1000" align="center"><font face="magazine" size="10" color="black">DESCRIERE</font><br><br>
+<table class="table2"><tr><td><font face="appleg" size="5" color="black">Thailanda este o țară în Asia de sud-est, învecinată cu Cambodgia la est, Golful Thailandei și Malaezia la sud, și cu Marea Andaman și Myanmar la vest. Mai este cunoscută și ca Siam, care a fost denumirea oficială a țării până în 23 iunie 1939, dată la care a fost schimbată în Thailanda. În 1945 i s-a dat din nou denumirea de Siam, dar la 11 mai 1949 a revenit la denumirea anterioara. Unii locuitori, în special minoritatea chineză, continuă să folosească denumirea de Siam. Calendarul oficial în Thailanda se bazează pe era budistă, care este cu 543 de ani înaintea calendarului vestic. 
+Turismul a contribuit în mod semnificativ la economia Thailandei și industria a beneficiat de aprecierea monedei. Aproximativ 40 milioane de turisti viziteaza anual tara. Pe 26 decembrie 2004, coasta vestică a Thailandei a fost devastată de un val tsunami de 10 metri înălțime, ce a urmat cutremurului din Oceanul Indian. Valul tsunami a provocat peste 5.000 de victime în Thailanda, jumătate dintre acestea fiind turiști.</font></td></tr></table></td>
+
+<td width="400" align="center"><font face="magazine" size="10" color="black">DATE GENERALE</font><br>
+<img src="images/thailandaflag.jpg" height="150" width="200" ><br><font face="gentium" size="5" color="black"><ul align="left">
+					<li><b>Denumirea oficiala:</b> Regatul Thailandei</li>
+					<li><b>Fusul orar:</b> UTC+7</li>
+					<li><b>Capitala:</b> Bangkok </li>
+					<li><b>Suprafata:</b> 513.120 km<sup>2</sup></li>
+					<li><b>Moneda:</b> baht  </li>
+					<li><b>Limba oficiala:</b> thailandeză  </li>
+					<li><b>Prefix telefonic international: </b>+66</li>
+
+</ul></font></td>
+</tr>
+<tr height="200">
+<td align="center"><font face="magazine" size="10" color="black">ATRACTII TURISTICE</font><br>
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Templul Wat Pho</b></font></button>
+<div class="content">
+<p align="center"><img src="images/watpho1.jpg" class="poze">
+<br><br><font face="gentium" size="4" color="black">Templul Wat Pho (Templul lui Buddha culcat) este situat in spatele Templului lui Budha de Smarald, fiind cel mai mare templu din Bangkok si se numeste astfel, datorita statuii gigantica ce il reprezinta pe Budha Culcat, suflata cu aur, de 15 metri inaltime si de 46 metri lungine. Wat Pho este, printre thailandezi, cunoscut și ca „prima universitate publică a națiunii”, datorită celor 1.360 de inscriptii despre științe medicale, istorice și liberale, regasite in templu, unde oamenii pot citi și învăța oricând. Inscripțiile din marmură despre științe medicale, anatomie și ortopedie sunt originile principiilor masajului tradițional Wat Pho Thai.
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Phae Mueang Phi</b></font></button>
+<div class="content"><p align="center"><img src="images/phrae.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Phae Mueang Phi este un loc cu formațiuni stâncoase originale în lanțul Phi Pan Nam, Thailanda. Se află la aproximativ opt kilometri nord-est de orașul Phrae din districtul Mueang Phrae, provincia Phrae.
+Numită după fantomele locale, zona Phae Mueang Phi include roci de ciuperci și stâlpi distinctivi formați prin acțiunea erozivă naturală.
+Phae Mueang Phi provine din peisajul solului și din eroziunea naturală a gresiilor în diferite forme. A fost erodat în mod natural de cursurile de apă pentru o lungă perioadă de timp, ceea ce a determinat unele dintre zonele sale să devină înalte, iar altele joase, alternativ. Stânca și coloanele stau proeminent în poziție verticală în diferite forme. Diferitele forme de coloane au provenit din prăbușirea și căderea de la nivelul normal, rezultând movile și coloane.
+
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>Pesterile Chiang Dao</b></font></button>
+<div class="content">
+<p align="center"><img src="images/caves.jpg" class="poze"><br><br><font face="gentium" size="4" color="black">Peșterile Chiang Dao sunt situate la aproximativ 70 km nord de Chiang Mai. Peșterile sunt una dintre principalele atracții din Parcul Național Chiang Dao.
+Complexul Peșterilor Chiang Dao în sine ar trebui să fie format din peste 100 de peșteri care se întind pe aproximativ 10-12 kilometri în interiorul lanțului muntos, dar există doar cinci peșteri principale care sunt în prezent deschise publicului.
+ Puteți explora liber două peșteri singur, deoarece sunt iluminate cu lumini electrice; ei sunt Tham Seua Dao și Tham Phra Nawn. Ambele peșteri conțin multe altare, statui și imagini ale lui Buddha. Pentru a explora celelalte trei, este indicat să angajați unul dintre ghizii locali cu o lanternă. Ghizii vă vor naviga cu ușurință în siguranță în ritmul ales. și vă vor indica toate obiectivele și vor evita capcanele.
+Nu totul este mers pe jos, în locuri trebuie să te apleci pentru a te târî prin deschideri mici și apoi să te urci în caverne mari. Unele zone au pasarele mici, altele doar podele din rocă naturală, altele au trepte în sus și în jos tăiate în stânca însăși. Acestea sunt numeroase formațiuni naturale de calcar și cristal pe care le veți vedea, alături de stalactite și stalagmite.
+</font></p></div>
+
+<button type="button" class="collapsible"><font face="magazine" color="black"><b>ALTE ATRACTII</b></font></button>
+<div class="content"><p align="center">
+<table cellspacing="0" cellpadding="5">
+<tr height="350">
+<td width="350"><div class="polaroid">  
+			<img src="images/piata.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">PIEtELE PLUTITOARE ALE THAILANDEI</font></p>
+			</div>
+		</div></td>
+<td width="350"><div class="polaroid">  
+			<img src="images/thailanda1.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Templul Wat Arun</font></p>
+			</div>
+		</div></td>
+
+<td width="350"><div class="polaroid">  
+			<img src="images/thailanda2.jpg" style="width:100%">  
+			<div class="container">  
+				<p><font face="magazine" color="black" size="5">Kanchanaburi</font></p>
+			</div>
+		</div></td>
+</tr>
+</table>
+<td align="center">
+<font face="goals" size="45" color="darkred">TRAVEL TIPS</font>
+<div class="container">
+  <img src="images/paper.png" alt="Snow" style="width:100%;">
+  
+  <div class="centered"><ul class="customIndent" align="left"><font face="garamond" size="5" color="black">
+					<br><br><br>
+					<li><i>Pregateste-te pentru o vreme calduroasa si umeda!<i></li>
+					<li><i>E mult mai facil sa platesti in cash, decat cu cardul.</i></li>
+					<li><i>Ai grija la escroci!</i></li>
+					<li><i>Nu bea apa de la robinet!</i></li></font></ul></div>
+</div>
+
+
+					
+
+
+</ul></td>
+</tr>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</body>
+</html>
